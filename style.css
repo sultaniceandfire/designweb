@@ -1,0 +1,203 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #18191a;
+    color: #fff;
+}
+a {
+    color: #aaa;
+    text-decoration: none;
+}
+.fb-header {
+    position: relative;
+    width: 100%;
+    background-color: #242526;
+    height: 75px;
+    display: flex;
+    padding: 0 20px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+}
+.fb-header-inline {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+.fb-header .sec-left, .fb-header .sec-right {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+.fb-header .sec-left {
+    float: left;
+}
+.fb-header .sec-right {
+    float: right;
+}
+.fb-header .sec-left img {
+    width: 48px;
+    height: 45px;
+}
+
+.fb-login {
+    position: relative;
+    display: flex;
+}
+.input-field {
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    height: 32px;
+    border-radius: 50px;
+    background-color: #444;
+    padding: 0 15px;
+    color: #ccc;
+}
+
+.input-login {
+    margin-right: 12px;
+}
+
+.lupa-akun a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-top: 5px;
+    display: block;
+}
+.lupa-akun a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.btn-login {
+    border: 0;
+    outline: none;
+    height: 32px;
+    border-radius: 50px;
+    background-color: #444;
+    padding: 0 15px;
+    color: #ccc;
+    cursor: pointer;
+}
+.btn-login:hover {
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    opacity: 0.8;
+}
+main {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+.fb-login-main-left {
+    width: 50%;
+}
+.fb-login-main-right {
+    width: 50%;
+    padding-left: 100px;
+}
+.fb-login-main h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #ddd;
+}
+.row {
+    display: flex;
+}
+.col-2 {
+    width: 50%;
+    position: relative;
+    margin-left: 20px;
+}
+.col-3 {
+    width: 33%;
+    position: relative;
+    margin-left: 20px;
+}
+.col-2:first-child {
+    margin-left: 0;
+}
+.col-3:first-child {
+    margin-left: 0;
+}
+.input-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+.login .input {
+    outline: none;
+    border: 0;
+    border-bottom: 3px solid #ccc;
+    background-color: transparent;
+    height: 35px;
+    color: #ddd;
+    width: 100%;
+}
+.input-group .label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: 200ms ease;
+    font-weight: 500;
+}
+.login .input:focus ~ .label, .login .input:not(:placeholder-shown) ~ .label {
+    top: -15px;
+    font-size: 12px;
+}
+.select-label {
+    position: relative!important;
+}
+.select-form {
+    width: 100%;
+    outline: none;
+    border: 0;
+    border-bottom: 3px solid #ccc;
+    background-color: transparent;
+    height: 35px;
+    color: #ddd;
+    width: 100%;
+}
+.input-group-radio {
+    display: flex;
+}
+.input-group-radio div {
+    margin-left: 30px;
+}
+.input-group-radio div:first-child {
+    margin-left: 0px;
+}
+h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.auth-btn {
+    margin-top: 20px;
+}
+.auth-btn button {
+    padding: 7px 50px;
+    border: 0;
+    outline: none;
+    background-color: #444;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.auth-btn button:hover {
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+    opacity: 0.7;
+}
